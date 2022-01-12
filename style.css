@@ -53,18 +53,33 @@ footer{
     flex-direction: row;
     background-color: gray;
     justify-content: space-between;
+    
 }
-.end-call{
-    background-color: gray;
-    color: red;
-    padding: 10px;
-    text-align: center;
-}
+
 .call-buttom{
     color: white;
 }
 .mic{
     font-size: 20px;
     text-align: center;
+}
+.central-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.central-nav ul{
+    display: contents;
+}
+li{
+    text-align: center;
+    list-style: none;
+    color: white;
+}
 
+.end-call{
+    background-color: gray;
+    color: red;
+    padding: 10px;
+    text-align: center;
 }
