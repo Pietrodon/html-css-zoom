@@ -1,0 +1,42 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+/* main */
+main{ 
+    height: calc(100vh- 81px);
+    flex-grow: 1;
+    width: 100%;
+    background-color: black;
+}
+.caselle{
+    position: relative;
+}
+img{
+    max-width: 245px;
+    max-height: 143px;
+}
+p{
+    position: absolute;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    bottom: 2px;  
+    padding-left: 20px; 
+    font-size: 15px;
+}
+i{
+    position: absolute;
+    color: white;
+    left: -3px;
+    bottom: 19px;
+    font-size: 15px;
+    padding-left: 3px;
+}
+
+footer{
+    width: 100%;
+    height: 81px;
+    border: solid red 1px;
+}
