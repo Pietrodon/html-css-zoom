@@ -51,22 +51,38 @@ footer{
     height: 81px; 
     display: flex; 
     flex-direction: row;
-    background-color: gray;
+    background-color: rgb(46, 45, 45);
     justify-content: space-between;
     
+    
+}
+.call-button{
+    width: 202px;
+    padding-top: 15px;
+}
+h4{
+    margin-top: 5px;
+    font-size: 15px;
 }
 
-.call-buttom{
+.button{
     color: white;
-}
-.mic{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;  
     font-size: 20px;
-    text-align: center;
+    
+}
+.button ul{
+    display: contents;
 }
 .central-nav{
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 10px;
+    width: 600px;
+    font-size: 15px;
+    padding-top: 15px;
 }
 .central-nav ul{
     display: contents;
@@ -75,11 +91,18 @@ li{
     text-align: center;
     list-style: none;
     color: white;
+    
+}
+.share{
+    color: rgb(14, 243, 14);
 }
 
 .end-call{
-    background-color: gray;
+    background-color: rgb(53, 53, 53);
     color: red;
-    padding: 10px;
     text-align: center;
+    font-size: 10px;
+    width: 98px;
+    padding-top: 15px;
+    line-height: 20px;
 }
